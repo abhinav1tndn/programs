@@ -3,7 +3,7 @@
 void main(){
 char a[20],b[20];
 int i,j,len;
-gets(a);
+scanf("%s",a);
 j=0;
 len=strlen(a);
 for(i=len-1;i>=0;i--)
